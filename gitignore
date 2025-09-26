@@ -1,2 +1,18 @@
 archive.py
 scratch.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Logs
+*.log
