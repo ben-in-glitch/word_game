@@ -7,7 +7,7 @@ class Traveller:
         self.job = 'Traveller'
         self.hp = 1
         self.maximum_hp = 1
-        self.damage = 1
+        self.damage = 10
         self.buffed_damage = 0
         self.defense = 1
         self.buffed_defense = 0
