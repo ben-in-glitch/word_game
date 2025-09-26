@@ -7,7 +7,7 @@ def intro():
     print('Welcome, traveller')
     name = input('Tell me your name: ').lower().capitalize()
     job = input('Choose your job(warrior/mage/archer): ').lower().capitalize()
-    print('let us begin your journey')
+    print('let us begin your journey...')
     job_map ={"Warrior": characters.Warrior,
               "Mage": characters.Mage,
               "Archer": characters.Archer}
