@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddd9beb1-9ca6-4807-8620-c306aff01ba4" name="Changes" comment="" />
+    <list default="true" id="ddd9beb1-9ca6-4807-8620-c306aff01ba4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/characters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "branch2",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/dachi/PycharmProjects/PythonProject/RPG(word_game)",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "file.status.colors"
