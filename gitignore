@@ -1,5 +1,4 @@
-archive.py
-scratch.py
+/.others/
 
 __pycache__/
 *.pyc
