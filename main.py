@@ -1,5 +1,5 @@
-from chapters import intro, all_chapters,chapters_transform,hidden_chapter_wind_city
-from characters import load_game
+from details.chapters import intro, all_chapters,chapters_transform,hidden_chapter_wind_city
+from details.characters import load_game
 def main():
     player = intro()
     load_game(player)

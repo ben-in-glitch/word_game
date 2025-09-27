@@ -16,7 +16,7 @@ def intro():
 
 def chapter1(player):
     print('Chapter 1:The cave')
-    monster = characters.Monster('goblin',7,7,2,1)
+    monster = characters.Monster('goblin', 7, 7, 2, 1)
 
     game = battle_mode(player,monster)
     if game:
@@ -27,7 +27,7 @@ def chapter2(player):
     print('Chapter 2:The Forrest')
     print('You ate a mysterious mushroom, live recovered')
     player.hp = player.maximum_hp
-    monster = characters.Witch('witch',10,10,3,2)
+    monster = characters.Witch('witch', 10, 10, 3, 2)
 
     game = battle_mode(player,monster)
     if game:
@@ -40,7 +40,7 @@ def chapter3(player):
     print('Hero: Welcome traveller')
     player.hp = player.maximum_hp
 
-    monster = characters.Hero('Hero',18,18,4,3)
+    monster = characters.Hero('Hero', 18, 18, 4, 3)
     game = battle_mode(player,monster)
     if game:
         bonus = random.randint(1, 3)
