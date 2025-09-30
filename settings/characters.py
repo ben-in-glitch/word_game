@@ -1,4 +1,5 @@
-import random, time, items, json
+import random, time, json
+from settings import items
 from InquirerPy import inquirer
 
 class Traveller:
@@ -325,7 +326,7 @@ def buff_add(user,buff):
     user.buffs.append(buff)
 
 def save_game(user):
-    with open ("save.json", "r+") as f:
+    with open ("settings\save.json", "r+") as f:
         data = json.load(f)
         new_data = {f'{user.name}-{user.job}' : user.to_dict()}
         data.update(new_data)
@@ -333,7 +334,7 @@ def save_game(user):
         json.dump(data, f, indent=4)
 
 def load_game(user):
-    with open("save.json", "r",encoding="utf-8") as f:
+    with open("settings\save.json", "r",encoding="utf-8") as f:
         data = json.load(f)
         if f'{user.name}-{user.job}' in data.keys():
             user.from_dict(data[f'{user.name}-{user.job}'])
@@ -343,9 +344,9 @@ def load_game(user):
 
 
 def remove_save(name,job):
-    with open("save.json", "r",encoding="utf-8") as f:
+    with open("settings\save.json", "r",encoding="utf-8") as f:
         data = json.load(f)
         data.pop(f'{name.lower().capitalize()}-{job.lower().capitalize()}')
-    with open("save.json", "w",encoding="utf-8") as f:
+    with open("settings\save.json", "w",encoding="utf-8") as f:
         json.dump(data, f, indent=4)
 

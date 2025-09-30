@@ -1,5 +1,6 @@
-import random, utilities, characters, time
-from battle import battle_mode
+import random, time
+from settings import utilities, characters
+from settings.battle import battle_mode
 from InquirerPy import inquirer
 
 

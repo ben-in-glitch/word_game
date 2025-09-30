@@ -1,4 +1,5 @@
-import time, characters
+import time
+from settings import characters
 from InquirerPy import inquirer
 
 def game_over(player):
